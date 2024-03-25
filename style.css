@@ -80,7 +80,7 @@ html{
 }
 .area::before{
     content: "";
-    background: url('/Project-2\(Food\)/mainbackground.jpg') no-repeat center center/cover;
+    background: url(mainbackground.jpg) no-repeat center center/cover;
     opacity: 0.8;
     position: absolute;
     top: 0;
@@ -191,7 +191,7 @@ html{
 }
 .clients::before{
     content: "";
-    background: url('../Project-2\(Food\)/pizza.jpg') no-repeat center center/cover;
+    background: url(pizza.jpg) no-repeat center center/cover;
     position: absolute;
     opacity: 0.3;
     height: 340px;
