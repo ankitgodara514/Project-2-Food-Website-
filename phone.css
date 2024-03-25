@@ -1,0 +1,69 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navbar::before{
+    height: 84%;
+}
+#mainlogo{
+    position: relative;
+    height: 107px;
+    width: 107px;
+}
+.navbar ul{
+    margin-top: 0px;
+    position: relative;
+    bottom: 16px;
+}
+.navbar li{
+    padding: 0px 6px;
+}
+.area{
+    width: 70%;
+    height: 24%;
+}
+.area h1,p{
+    margin: 0;
+}
+.area #heading1{
+    font-size: 2.2rem;
+}
+.area p{
+    font-size: 0.9rem;
+}
+.area h1{
+    margin-bottom: 3%;
+}
+.area::before{
+    height: 48%;
+}
+.services{
+    height: 65%;
+    font-size: 0.8rem;
+}
+.services h1{
+    margin-top: 66px
+}
+.services .boxes{
+    display: flex;
+    flex-direction: column;
+}
+.services .box{
+    margin: 1% 14%;
+}
+.clients{
+    height: 24%;
+    overflow: hidden;
+}
+.clients::before{
+    height: 95%;
+}
+.clients h1{
+    margin-top: 37px;
+}
+.clients .clientimg{
+    padding: 4% 4%;
+    flex-wrap: wrap;
+}
